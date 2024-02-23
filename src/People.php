@@ -8,7 +8,7 @@ class People
     {
     }
 
-    public function getName(string $name) : string
+    public function getName(string $name = "Guest") : string
     {
         return "Hello $name, My Name Is $this->name";
     }
